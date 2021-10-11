@@ -12,6 +12,17 @@
     .hero__container,
     .header__container{
         padding: 0 20px;
+        width: auto;
+    }
+    .header__container {
+        align-items: center;
+    }
+    .header__menu {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    .hero__wrapper {
+        margin-top: -150px;
     }
     .hero .container {
         width: auto;
@@ -27,5 +38,120 @@
     }
     .hero__description {
         font-size: 12px;
+    }
+    .trip__top {
+        flex-direction: column;
+        text-align: center;
+    }
+    .trip__top img {
+        margin: 20px auto;
+    }
+    .title {
+        font-size: 42px;
+    }
+    .trip__description {
+        font-size: 12px;
+    }
+    .trip__nav {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .trip__nav ul {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .trip__nav li {
+        padding: 0;
+        margin-bottom: 45px;
+    }
+    .trip__nav li.is-active::before {
+        bottom: -20px;
+    }
+    .trip__content {
+        flex-direction: column-reverse;
+    }
+    .trip__right {
+        padding: 0;
+        margin-bottom: 200px;
+        width: 100%;
+        text-align: center;
+    }
+    .trip__right h3 {
+        font-size: 42px;
+    }
+    .trip__right p {
+        font-size: 13px;
+    }
+    .trip__social {
+        right: 50%;
+        transform: translateX(50%);
+        bottom: -130px;
+    }
+    .button {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    .trip__slider {
+        width: 100%;
+        margin-left: 0;
+    }
+    .slider-item__text {
+        left: 40%;
+        transform: translate(-50%,-50%);
+    }
+    .col-6 {
+        width: 100%;
+    }
+
+    .about,.about .title {
+        text-align: center;
+    }
+    .about__content {
+        flex-direction: column;
+    }
+    .about__left {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 50px;
+    }
+    .about__content p {
+        font-size: 13px;
+    }
+    .about__right {
+        width: 100%;
+    }
+    .about-item {
+        width: 100%;
+    }
+    .about-item:hover .about-item__info{
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+    }
+    .people {
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+    .people-item {
+        padding: 25px;
+    }
+    .people-item::before {
+        display: none;
+    }
+    .goodbye {
+        padding: 0;
+    }
+    .footer {
+        padding: 70px 0;
+    }
+    .footer__row {
+        flex-wrap: wrap;
+    }
+    .footer-item {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    .footer__copyright {
+        margin-top: 0;
     }
 }
